@@ -20,10 +20,22 @@
 			<key>Path</key>
 			<string>main.cpp</string>
 		</dict>
+		<key>CApp.h</key>
+		<dict>
+			<key>Path</key>
+			<string>CApp.h</string>
+		</dict>
+		<key>CApp.cpp</key>
+		<dict>
+			<key>Path</key>
+			<string>CApp.cpp</string>
+		</dict>
 	</dict>
 	<key>Nodes</key>
 	<array>
 		<string>main.cpp</string>
+		<string>CApp.h</string>
+		<string>CApp.cpp</string>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -64,12 +76,10 @@
 				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>/opt/local/lib</string>
 					<string>/usr/lib</string>
 				</array>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>/opt/local/include</string>
 					<string>/usr/include</string>
 					<string>/usr/local/include</string>
 				</array>
