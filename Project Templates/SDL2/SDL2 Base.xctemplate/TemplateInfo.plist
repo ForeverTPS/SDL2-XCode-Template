@@ -98,6 +98,10 @@
 					<string>/usr/include</string>
 					<string>/usr/local/include</string>
 				</array>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>@executable_path/../Frameworks</string>
+				</array>
 			</dict>
 		</dict>
 	</array>
