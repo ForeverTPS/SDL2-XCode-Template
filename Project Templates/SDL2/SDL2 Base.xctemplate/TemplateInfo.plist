@@ -22,13 +22,22 @@
 		</dict>
 		<key>CApp.h</key>
 		<dict>
+			<key>Group</key>
+			<string>include</string>
 			<key>Path</key>
 			<string>CApp.h</string>
 		</dict>
 		<key>CApp.cpp</key>
 		<dict>
+			<key>Group</key>
+			<string>src</string>
 			<key>Path</key>
 			<string>CApp.cpp</string>
+		</dict>
+		<key>SDL2</key>
+		<dict>
+			<key>Path</key>
+			<string>/Libraries/Frameworks/SDL2.framework</string>
 		</dict>
 	</dict>
 	<key>Nodes</key>
@@ -52,21 +61,27 @@
 				</dict>
 				<dict>
 					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
 					<string>CopyFiles</string>
-					<key>DstPath</key>
-					<string>/usr/share/man/man1/</string>
 					<key>DstSubfolderSpec</key>
-					<string>0</string>
+					<string>10</string>
 					<key>RunOnlyForDeploymentPostprocessing</key>
 					<string>YES</string>
-				</dict>
+                </dict>
 			</array>
-			
+			<key>Frameworks</key>
+			<array>
+				<string>Cocoa</string>
+				<string>../../../../../../../../../Library/Frameworks/SDL2</string>
+			</array>
 			<key>SharedSettings</key>
 			<dict>
 				<key>OTHER_LDFLAGS</key>
 				<array>
-					<string>-framework cocoa -framework SDL2</string>
+					<string></string>
 				</array>
 				<key>USER_HEADER_SEARCH_PATHS</key>
 				<string></string>
@@ -84,7 +99,6 @@
 					<string>/usr/local/include</string>
 				</array>
 			</dict>
-				
 		</dict>
 	</array>
 </dict>
