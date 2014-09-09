@@ -3,7 +3,7 @@ XCode Template SDL 2.0
 
 These are Xcode template files for creating SDL applications using Xcode.
 
-Current supported version: Xcode 4.6
+Current supported version: Xcode 4.6 and above
 
 Pre-Requisites
 ---------------
