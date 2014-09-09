@@ -1,4 +1,4 @@
-XCode Template SDL 2.0
+Xcode Template SDL 2.0
 ======================
 
 These are Xcode template files for creating SDL applications using Xcode.
